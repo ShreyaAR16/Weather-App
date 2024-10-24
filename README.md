@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Weather App
 
-## Getting Started
+A simple, responsive weather application built with Next.js and TypeScript. This app allows users to check the current weather conditions for any city worldwide using the OpenWeatherMap API.
 
-First, run the development server:
+## Features
 
-```bash
+- Search for weather by city name
+- Display current temperature, weather description, humidity, and wind speed
+- Emoji representation of weather conditions
+- Dark mode toggle
+- Responsive design for mobile and desktop
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
+- An OpenWeatherMap API key (Sign up at [OpenWeatherMap](https://openweathermap.org/api) to get your free API key)
+
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/weather-app.git
+   cd weather-app
+   ```
+
+2. Install the dependencies:
+   ```
+   npm install
+   ```
+
+3. Create a `.env.local` file in the root directory and add your OpenWeatherMap API key:
+   ```
+   OPENWEATHER_API_KEY=your_api_key_here
+   ```
+
+## Usage
+
+To run the development server:
+
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To build the app for production:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+npm run build
+```
 
-## Learn More
+To start the production server:
 
-To learn more about Next.js, take a look at the following resources:
+```
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `app/`: Contains the main application files
+  - `page.tsx`: The main page component
+  - `api/weather/route.ts`: API route for fetching weather data
+- `components/`: Contains React components
+  - `WeatherApp.tsx`: The main Weather App component
+- `public/`: Static files
+- `.env.local`: Environment variables (not tracked by Git)
 
-## Deploy on Vercel
+## Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide React](https://lucide.dev/)
+- [OpenWeatherMap API](https://openweathermap.org/api)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/your-username/weather-app/issues) if you want to contribute.
+
+## License
+
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+
+## Contact
+
+Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+
+Project Link: [https://github.com/your-username/weather-app](https://github.com/your-username/weather-app)
+```
+
+Remember to replace the following placeholders with your actual information:
+- `your-username` with your GitHub username
+- `Your Name` with your name or the name you want to be contacted by
+- `@your_twitter` with your Twitter handle (if applicable)
+- `email@example.com` with your contact email
+
+This README provides a comprehensive overview of your weather app, including how to set it up, run it, and contribute to it. It also lists the main features and technologies used, which can be helpful for other developers or potential users of your app.
