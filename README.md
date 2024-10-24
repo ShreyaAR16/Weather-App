@@ -87,15 +87,11 @@ This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+Shreya A R - arshreya15@gmail.com
 
-Project Link: [https://github.com/your-username/weather-app](https://github.com/your-username/weather-app)
+Project Link: https://1-weather.vercel.app/
 ```
 
-Remember to replace the following placeholders with your actual information:
-- `your-username` with your GitHub username
-- `Your Name` with your name or the name you want to be contacted by
-- `@your_twitter` with your Twitter handle (if applicable)
-- `email@example.com` with your contact email
+
 
 This README provides a comprehensive overview of your weather app, including how to set it up, run it, and contribute to it. It also lists the main features and technologies used, which can be helpful for other developers or potential users of your app.
