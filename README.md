@@ -91,7 +91,3 @@ Shreya A R - arshreya15@gmail.com
 
 Project Link: https://1-weather.vercel.app/
 ```
-
-
-
-This README provides a comprehensive overview of your weather app, including how to set it up, run it, and contribute to it. It also lists the main features and technologies used, which can be helpful for other developers or potential users of your app.
